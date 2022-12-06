@@ -5,14 +5,14 @@ import ArrowDown from '../../images/Vector 3.png'
 const Hero = () => {
   return (
     <header className={styles.header}>
-      <div></div>
+      <div className={styles.header_pattern}></div>
       <div className={styles.header_img}>
         <div className={styles.header_content}>
           <h1>We Help You Make Modern Interior</h1>
           <p>We will help you to make an elegant and luxurious interior designed by professional interior designer.</p>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div className={styles.header_arrow}>
+          <img src={ArrowDown} alt="" />
         </div>
       </div>
     </header>
