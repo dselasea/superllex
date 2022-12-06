@@ -1,3 +1,9 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 /* .header {
   display: flex;
   flex-direction: row;
@@ -66,6 +72,11 @@
 
   .header_content p {
     padding: 0 2rem 4rem 2rem;
+  }
+
+  .header_arrow {
+    right: -15px;
+    bottom: -15px;
   }
 
 }

@@ -1,0 +1,16 @@
+.section {
+  text-align: center;
+  padding: 2rem 0;
+  margin: 6rem 0;
+  background-color: #f4f6f5;
+}
+
+.section h3 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.section_brands {
+  display: grid;
+  gap: 2rem;
+}

@@ -4,7 +4,8 @@ import ArrowDown from '../../images/Vector 3.png'
 
 const Hero = () => {
   return (
-    <header className={styles.header}>
+    <div className={styles.container}>
+      <header className={styles.header}>
       <div className={styles.header_pattern}></div>
       <div className={styles.header_img}>
         <div className={styles.header_content}>
@@ -16,6 +17,7 @@ const Hero = () => {
         </div>
       </div>
     </header>
+    </div>
   )
 }
 

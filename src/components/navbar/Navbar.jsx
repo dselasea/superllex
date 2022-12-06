@@ -7,7 +7,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
 
   return (
-    <header className={styles.navbar}>
+    <div className={styles.container}>
+      <header className={styles.navbar}>
       <img src={Logo} />
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
@@ -32,6 +33,7 @@ const Navbar = () => {
       </div>
       </div>
     </header>
+    </div>
   )
 }
 
