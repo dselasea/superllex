@@ -24,9 +24,10 @@ const Hotdeals = () => {
   ]
   return (
     <div className={styles.container}>
-        <section className={styles.section}>
+    <section className={styles.section}>
       <div className={styles.section_hot}>
-        <h2>Hot <img src={Fire} alt="" />deals for you</h2>
+        <h2>Hot <img src={Fire} alt="" /><br /></h2>
+        <h2>deals for you</h2>
         <p>Online shopping for retail sales direct to consumers</p>
       </div>
       <div className={styles.section_service}>
