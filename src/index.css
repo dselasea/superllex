@@ -10,6 +10,10 @@ ul {
   list-style: none;
 }
 
+h5 {
+  color: #998d86;
+}
+
 a {
   color: #232323;
   text-decoration: none;

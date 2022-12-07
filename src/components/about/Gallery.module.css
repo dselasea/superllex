@@ -22,11 +22,11 @@
 }
 
 .section_gallery .gallery_content p {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .section_gallery  .gallery_images img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 

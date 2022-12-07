@@ -1,0 +1,93 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background: #f4f6f5;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.client_profile {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.client_say {
+  padding: 4rem 3rem;
+  text-align: center;
+}
+
+.client_profile div {
+    text-align: center;
+}
+
+.client_profile div:last-child img {
+  margin-bottom: 2rem;
+}
+
+.client_profile div:last-child h4 {
+  margin-top: 0.5rem;
+  color: #3f3f41;
+}
+
+.client_say h2 {
+  font-size: 3rem;
+  color: #8c593a;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 720px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container::before {
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 40px solid #8c593a;
+    left: -100px;
+    top: -100px;
+  }
+
+  .container::after {
+    content: '';
+    position: absolute;
+    height: 320px;
+    width: 320px;
+    border-radius: 100%;
+    border: 40px solid #8c593a;
+    left: -155px;
+    top: -155px;
+  }
+
+  .client_say {
+    width: 50%;
+    
+  }
+
+  .client_profile {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4rem;
+  }
+
+  .client_profile div:last-child {
+    text-align: left;
+    width: 50%;
+  }
+
+  .client_profile div:last-child h5 {
+    opacity: 0.4;
+  }
+  
+ 
+}
