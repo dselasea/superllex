@@ -1,3 +1,9 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .section {
   text-align: center;
   padding: 2rem 0;
@@ -5,12 +11,19 @@
   background-color: #f4f6f5;
 }
 
-.section h3 {
+.section h4 {
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .section_brands {
   display: grid;
   gap: 2rem;
+}
+
+@media screen and (min-width: 720px){
+  .section_brands {
+    grid-template-columns: repeat(5, 1fr);
+    place-content: center;
+  }
 }

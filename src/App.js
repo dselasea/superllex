@@ -8,7 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Companies />
+      <Companies microsoft='microsoft' entrepreneur='entrepreneur' fortune='fortune' business='business' mashable='mashable'/>
     </div>
   );
 }

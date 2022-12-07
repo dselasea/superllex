@@ -6,26 +6,28 @@ import Fortune from '../../images/Fortune.png'
 import Business from '../../images/Business web.png'
 import Mashable from '../../images/Mashable.png'
 
-const Companies = () => {
+const Companies = ({microsoft, entrepreneur, fortune, business, mashable}) => {
   return (
     <section className={styles.section}>
-      <h3>trusted by over 1k+ companies</h3>
+      <div className={styles.container}>
+      <h4>trusted by over 1k+ companies</h4>
       <div className={styles.section_brands}>
         <div>
-        <img src={Microsoft} alt="" />
+        <img src={Microsoft} alt={microsoft} />
         </div>
         <div>
-        <img src={Entrepreneur} alt="" />
+        <img src={Entrepreneur} alt={entrepreneur} />
         </div>
         <div>
-        <img src={Fortune} alt="" />
+        <img src={Fortune} alt={fortune} />
         </div>
         <div>
-        <img src={Business} alt="" />
+        <img src={Business} alt={business} />
         </div>
         <div>
-        <img src={Mashable} alt="" />
+        <img src={Mashable} alt={mashable} />
         </div>
+      </div>
       </div>
     </section>
   )
