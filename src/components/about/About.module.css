@@ -1,0 +1,30 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container .section_hot {
+  padding: 6rem 0;
+}
+
+.section_content h2 {
+  color: #8c593a;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.section_btn .btn {
+  border: 0;
+  padding: 1.2rem 2rem;
+  font-weight: bold;
+  /* opacity: 0.8; */
+  box-shadow: 1px 50px 90px 0px rgba(0,0,0,0.8);
+}
+
+@media screen and (min-width: 720px){
+  .container .section_hot {
+    display: flex;
+    justify-content: space-between;
+  }
+}

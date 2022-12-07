@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./components/about/About";
 import Companies from "./components/companies/Companies";
 import Hero from "./components/hero/Hero";
 import Hotdeals from "./components/hotdeals/Hotdeals";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Companies microsoft='microsoft' entrepreneur='entrepreneur' fortune='fortune' business='business' mashable='mashable'/>
       <Hotdeals />
+      <About />
     </div>
   );
 }
