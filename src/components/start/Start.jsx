@@ -6,7 +6,7 @@ const Start = () => {
     <section className={styles.section}>
       <div className={styles.container}>
         <div className={styles.section_start}>
-          <h3>Start your business today for $0+ state fees.</h3>
+          <h3>Start your business today <span>for $0+ state fees.</span></h3>
         </div>
         <div className={styles.section_btns}>
           <button className={`${styles.section_btn} ${styles.section_btn_white}`}>Get Started</button>
