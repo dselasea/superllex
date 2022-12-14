@@ -34,6 +34,17 @@
   padding-bottom: 1rem;
 }
 
+.logo_footer .social a {
+  font-size: 1.3rem;
+  margin-right: 1.2rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.logo_footer .social .icons {
+  color: #fff;
+}
+
 .logo_footer,
 .entity_footer,
 .services_footer,

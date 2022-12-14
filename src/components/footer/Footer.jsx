@@ -1,5 +1,9 @@
 import React from 'react'
 import styles from './Footer.module.css'
+import { FaFacebookF } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
+import { FaPinterest } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -8,10 +12,12 @@ const Footer = () => {
       <div className={styles.logo_footer}>
         <h3>superllex</h3>
         <p>Optix seamlessly connects your members with the community resources</p>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <div className={styles.social}>
+        <a href=""><FaFacebookF className={styles.icons} /></a>
+        <a href=""><FaTwitter className={styles.icons} /></a>
+        <a href=""><FaLinkedinIn className={styles.icons} /></a>
+        <a href=""><FaPinterest  className={styles.icons} /></a>
+        </div>
       </div>
       <div className={styles.entity_footer}>
         <h4>Entity types</h4>
@@ -20,7 +26,7 @@ const Footer = () => {
           <li><a href='/'>Security</a></li>
           <li><a href='/'>Privacy Policy</a></li>
           <li><a href='/'>Partners</a></li>
-          <li><a href='/'>About us</a></li>
+          <li><a href='/'>About Us</a></li>
           <li><a href='/'>FAQs</a></li>
         </ul>
       </div>
@@ -32,7 +38,7 @@ const Footer = () => {
           <li><a href='/'>Payrool</a></li>
           <li><a href='/'>Library</a></li>
           <li><a href='/'>Blog</a></li>
-          <li><a href='/'>help Center</a></li>
+          <li><a href='/'>Help Center</a></li>
         </ul>
       </div>
       <div className={styles.resources_footer}>
