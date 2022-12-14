@@ -32,7 +32,7 @@ const About = () => {
         <h2>About Us</h2>
         <p>At Besnik Consultancy, we take pride in our values - service, integrity, and excellence</p>
         </div>
-        <div class={styles.section_btn}>
+        <div className={styles.section_btn}>
           <button className={styles.btn}>Learn More</button>
         </div>
       </section>

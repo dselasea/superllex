@@ -1,0 +1,18 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 1rem;
+}
+
+.product_items {
+  display: grid;
+  gap: 2rem;
+}
+
+.product_item {
+  padding: 2rem;
+  background-color: #f4f6f5;
+}
+
+.product {
+}

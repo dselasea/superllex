@@ -10,7 +10,7 @@ const Gallery = ({aboutInfo}) => {
         <section className={styles.section_gallery}>
           <div className={styles.gallery_info}>
           {aboutInfo.map(about => (
-              <div className={styles.gallery_content}>
+              <div className={styles.gallery_content} key={about.id}>
                   <h2>{about.id}.</h2>
                   <h4>{about.title}</h4>
                   <p>{about.description}</p>
