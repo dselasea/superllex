@@ -1,0 +1,61 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.logo_footer {
+  padding: 0 2rem;
+}
+
+.footer {
+  background-color: #8c593a;
+  color: white;
+  padding: 4rem 0;
+}
+
+.footer h4 {
+  padding-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.footer h3 {
+  font-size: 2rem;
+}
+
+.footer p {
+  font-weight: 300;
+}
+
+.footer ul li a {
+  color: white;
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+.logo_footer,
+.entity_footer,
+.services_footer,
+.resources_footer,
+.support_footer {
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 720px){
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 820px){
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .container {
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  }
+}
