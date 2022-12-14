@@ -5,6 +5,7 @@ import Companies from "./components/companies/Companies";
 import Hero from "./components/hero/Hero";
 import Hotdeals from "./components/hotdeals/Hotdeals";
 import Navbar from "./components/navbar/Navbar";
+import Start from "./components/start/Start";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Hotdeals />
       <About />
       <Clients />
+      <Start />
     </div>
   );
 }
