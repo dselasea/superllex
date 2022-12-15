@@ -13,7 +13,7 @@ const Hero = () => {
           <p>We will help you to make an elegant and luxurious interior designed by professional interior designer.</p>
         </div>
         <div className={styles.header_arrow}>
-          <img src={ArrowDown} alt="" />
+          <img src={ArrowDown} alt="down arrow" />
         </div>
       </div>
     </header>

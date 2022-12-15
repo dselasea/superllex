@@ -1,20 +1,20 @@
 import React from 'react'
 import styles from './Menu.module.css'
 
-const Menu = ({menuItems}) => {
+const Menu = ({ items }) => {
   return (
     <section className={styles.container}>
       <div className={styles.product_items}>
-        {menuItems.map((menuItem) => {
-          const {id, title, price, pastPrice, image, cart} = menuItem
+        {items.map((menuItem) => {
+          const {id, title, price, pastPrice, img, cart} = menuItem
           return <div className={styles.product_item} key={id}>
-            <div className={styles.cart}><img src={cart} alt={title} /></div>
+              <img src={cart} alt={title} className={styles.cart} />
             <h4>{title}</h4>
-            <span>{price}</span>
-            <span>{pastPrice}</span>
-            <div className={styles.product}>
-              <img src={image} alt={title} />
+              <div className={styles.price}>
+              <span>{`$${price}`}</span>
+              <span className={styles.small}><del>{`$${pastPrice}`}</del></span>
             </div>
+              <img src={img} alt={title} className={styles.product}/>
           </div>
         })}
       </div>

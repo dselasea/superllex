@@ -7,15 +7,13 @@ import Hotdeals from "./components/hotdeals/Hotdeals";
 import Navbar from "./components/navbar/Navbar";
 import Start from "./components/start/Start";
 import Footer from "./components/footer/Footer";
-import data from './data'
+import items from './data'
 import Menu from "./components/menu/Menu";
 
 
 function App() {
-  const [menuItems, setMenuItems] = useState(data)
+  const [menuItems, setMenuItems] = useState(items)
   const [categories, setCategories] = useState([])
-
-  console.log(menuItems)
 
   return (
     <div>
@@ -24,7 +22,7 @@ function App() {
       <Companies microsoft='microsoft' entrepreneur='entrepreneur' fortune='fortune' business='business' mashable='mashable'/>
       <Hotdeals />
       <About />
-      <Menu menuItems={menuItems}/>
+      <Menu items={menuItems} />
       <Clients />
       <Start />
       <Footer />

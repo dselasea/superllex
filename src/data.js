@@ -1,11 +1,11 @@
-const products = [
+const menu = [
   {
     id: 1,
     title: "Hand Base Lamp",
     price: 35.00,
     pastPrice: 55.00,
-    image: './images/handLamp.png',
-    cart: './images/shopping-cart.png',
+    img: 'images/handLamp.png',
+    cart: 'images/shopping-cart.png',
     category: 'light'
   },
   {
@@ -13,8 +13,8 @@ const products = [
     title: "Vintage Chair",
     price: 65.00,
     pastPrice: 95.00,
-    image: './images/vintageChair.png',
-    cart: './images/shopping-cart.png',
+    img: 'images/vintageChair.png',
+    cart: 'images/shopping-cart.png',
     category: 'chair'
   },
   {
@@ -22,8 +22,8 @@ const products = [
     title: "Lamp Tool",
     price: 35.00,
     pastPrice: 45.00,
-    image: './images/Lamptool.png',
-    cart: './images/shopping-cart.png',
+    img: 'images/Lamptool.png',
+    cart: 'images/shopping-cart.png',
     category: 'light'
   },
   {
@@ -31,8 +31,8 @@ const products = [
     title: "Stylish Chair",
     price: 45.00,
     pastPrice: 55.00,
-    image: './images/stylishChair.png',
-    cart: './images/shopping-cart.png',
+    img: 'images/stylishChair.png',
+    cart: 'images/shopping-cart.png',
     category: 'chair'
   },
   {
@@ -40,8 +40,8 @@ const products = [
     title: "Vintage Chair",
     price: 65.00,
     pastPrice: 95.00,
-    image: './images/vintage.png',
-    cart: './images/shopping-cart.png',
+    img: './images/vintage.png',
+    cart: 'images/shopping-cart.png',
     category: 'chair'
   },
   {
@@ -49,11 +49,11 @@ const products = [
     title: "Stackable Chair",
     price: 87.00,
     pastPrice: 97.00,
-    image: './images/stackchair.png',
-    cart: './images/shopping-cart.png',
+    img: './images/stackchair.png',
+    cart: 'images/shopping-cart.png',
     category: 'chair'
   },
 ]
 
 
-export default products
+export default menu
