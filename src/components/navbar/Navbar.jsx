@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <header className={styles.navbar}>
-      <img src={Logo} />
+      <img src={Logo} alt='Logo'/>
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
           <li>

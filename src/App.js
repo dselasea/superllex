@@ -9,11 +9,22 @@ import Start from "./components/start/Start";
 import Footer from "./components/footer/Footer";
 import items from './data'
 import Menu from "./components/menu/Menu";
+import Products from "./components/products/Products";
 
+const allProducts = ['all', ...new Set(items.map((item) => item.category))]
 
 function App() {
   const [menuItems, setMenuItems] = useState(items)
-  const [categories, setCategories] = useState([])
+  const [products, setProducts] = useState(allProducts)
+
+  const filterProducts = (category) => {
+    if(category === 'all'){
+      setMenuItems(items)
+      return
+    }
+    const newProducts = items.filter((item) => item.category === category)
+    setMenuItems(newProducts)
+  }
 
   return (
     <div>
@@ -22,6 +33,7 @@ function App() {
       <Companies microsoft='microsoft' entrepreneur='entrepreneur' fortune='fortune' business='business' mashable='mashable'/>
       <Hotdeals />
       <About />
+      <Products products={products} filterProducts={filterProducts}/>
       <Menu items={menuItems} />
       <Clients />
       <Start />

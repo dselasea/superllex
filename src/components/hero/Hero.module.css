@@ -65,18 +65,12 @@
     background-size: 100% 100%;
     
   }
+
   .header_content {
-    max-width: 45%;
+    max-width: 60%;
     left: -25%;
     top: 15%;
-  }
-
-  .header_content h1 {
-    padding: 4rem 2rem 1rem 2rem;
-  }
-
-  .header_content p {
-    padding: 0 2rem 4rem 2rem;
+    padding: 1rem;
   }
 
   .header_arrow {
@@ -84,4 +78,18 @@
     bottom: -15px;
   }
 
+}
+
+@media screen and (min-width: 820px){
+   .header_content {
+    max-width: 60%;
+    left: -25%;
+    top: 15%;
+    padding: 3rem 2rem;
+  }
+
+  .header_content h1 {
+    /* padding: 4rem 2rem 1rem 2rem; */
+    font-size: 3rem;
+  } 
 }
